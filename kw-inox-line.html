@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>KW Suspension NZ - Home</title>
+		<title>KW Inox Line - KW Suspension NZ</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -45,7 +45,7 @@ body.wsite-background {background-attachment: fixed !important;}
 </style>
 <style type='text/css'>
 .wsite-header {
-	background-image: url(uploads/2/2/4/0/22404352/header_images/1407203072.jpg) !important;
+	background-image: url(uploads/2/2/4/0/22404352/header_images/1418720070.jpg) !important;
 	background-position: 0 0 !important;
 }
 </style>
@@ -65,9 +65,9 @@ var STYLE_PREFIX = 'wsite';
 		function initFlyouts(){
 			initPublishedFlyoutMenus(
 				[{"id":"331637976309119823","title":"Home","url":"index.html","target":""},{"id":"993457908176523703","title":"Product Finder","url":"product-finder.html","target":""},{"id":"457958754370798728","title":"Suspension Products","url":"suspension-products.html","target":""},{"id":"282883260372450690","title":"Technology","url":"technology.html","target":""},{"id":"362946631606340170","title":"Motorsports","url":"motorsports.html","target":""},{"id":"487961449695170829","title":"Company","url":"company.html","target":""},{"id":"462539750200872473","title":"Contact Us","url":"contact-us.html","target":""}],
-				"331637976309119823",
+				"387229440274027044",
 				"<li class=\"wsite-menu-item-wrap\"><a href=\"#\" data-membership-required=\"\" class=\"wsite-menu-item\">{{title}}<\/a><\/li>",
-				'active',
+				'{{id}}',
 				false,
 				{"site\/menu\/submenu-main":"<div class=\"wsite-menu-wrap\" style=\"display:none\">{{! Designer note: \"wsite-menu-wrap\" required on submenu wrapper }}\n\t<ul class=\"wsite-menu\">{{! Designer note: \"wsite-menu\" required on submenu element }}\n\t\t{{#children}}{{> site\/menu\/submenu-item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","site\/menu\/submenu-item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-subitem-wrap{{#current_page}} wsite-nav-current{{\/current_page}}\">{{! Designer note: id required & \"wsite-menu-subitem-wrap\" required on the item wrap }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-subitem\">{{! Designer note: \"wsite-menu-subitem\" required on the item link }}\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{itemtitle}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/main":"<ul class=\"wsite-menu-default\">{{> site\/menu\/main-without-wrap}}<\/ul>{{! Designer note: \"wsite-menu-default\" required on menu element }}\n","site\/menu\/main-without-wrap":"{{#links}}{{!\n}}{{#current_page}}{{> site\/menu\/item-current}}{{\/current_page}}{{!\n}}{{^current_page}}{{> site\/menu\/item}}{{\/current_page}}{{!\n}}{{\/links}}\n","site\/menu\/item-current":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\" data-membership-required=\"{{membership-required}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n"}
 			)
@@ -83,7 +83,7 @@ var STYLE_PREFIX = 'wsite';
 </script>
 		
 	</head>
-	<body class="tall-header-page wsite-background  wsite-theme-light  wsite-page-index wsite-custom-background"><div id="header-wrap">
+	<body class="short-header-page wsite-background  wsite-theme-light  wsite-page-kw-inox-line wsite-custom-background"><div id="header-wrap">
         <div class="container">
             <table id="header">
                 <tr>
@@ -110,8 +110,8 @@ var STYLE_PREFIX = 'wsite';
 </span>
 </td>
 							</tr>
-                        </table>						
-                    </td>					
+                        </table>
+                    </td>
                 </tr>
             </table>
         </div><!-- end container -->
@@ -119,8 +119,8 @@ var STYLE_PREFIX = 'wsite';
 
     <div id="nav-wrap">
         <div class="container">
-        	<ul class="wsite-menu-default"><li id="active" class="wsite-menu-item-wrap">
-	<a href="index.html" class="wsite-menu-item">
+        	<ul class="wsite-menu-default"><li id="pg331637976309119823" class="wsite-menu-item-wrap">
+	<a href="index.html" data-membership-required="0" class="wsite-menu-item">
 		Home
 	</a>
 	
@@ -71831,7 +71831,7 @@ var STYLE_PREFIX = 'wsite';
 	</a>
 	
 </li>
-<li id="wsite-nav-387229440274027044" class="wsite-menu-subitem-wrap">
+<li id="wsite-nav-387229440274027044" class="wsite-menu-subitem-wrap wsite-nav-current">
 	<a href="kw-inox-line.html" class="wsite-menu-subitem">
 		<span class="wsite-menu-title">
 			KW Inox Line
@@ -71926,55 +71926,48 @@ var STYLE_PREFIX = 'wsite';
     <div id="main-wrap">
         <div class="container">
    			<div id='wsite-content' class='wsite-elements wsite-not-footer'>
-<div class="paragraph" style="text-align:left;"><strong><font size="6">KW Automotive New Zealand<span></span></font></strong><br /><span></span>Welcome to the official New Zealand site for KW Automotive products.  Here you will find the latest news and information regarding everything  KW including the full line up of KW suspensions such as V1 / V2 /  V3 Coilovers, Clubsport, Street Comfort, Competition etc.. If you have  any queries, please don&rsquo;t hesitate to contact us on&nbsp;0800 722358 or +649 820 8509. <br /><span style=""></span></div>
-
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
 	<table class="wsite-multicol-table">
 		<tbody class="wsite-multicol-tbody">
 			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				<td class="wsite-multicol-col" style="width:34%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
 <a>
-<img src="uploads/2/2/4/0/22404352/6515261.png?212" alt="Picture" style="width:212;max-width:100%" />
+<img src="uploads/2/2/4/0/22404352/5179685.jpg?281" alt="Picture" style="width:281;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				</td>				<td class="wsite-multicol-col" style="width:66%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:10px;margin-right:0;text-align:center">
-<a>
-<img src="uploads/2/2/4/0/22404352/4383812.png?214" alt="Picture" style="width:auto;max-width:100%" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
-					
-						
-
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-<a>
-<img src="uploads/2/2/4/0/22404352/9890056.png?213" alt="Picture" style="width:213;max-width:100%" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font size="6"> <strong>KW &ldquo;inox-line&rdquo; in detail </strong></font><ul style=""><li style=""><font size="2">Highly corrosion-resistant</font></li><li style=""><font size="2">Unsurpassed quality</font></li><li style=""><font size="2">No signs of wear at the adjustment mechanism &ndash; also during long use</font></li><li style=""><font size="2">Trapezoid thread in stainless steel eases height-adjustment</font></li><li style=""><font size="2">Perfect look &ndash; permanently</font></li><li style=""><font size="2">High load tolerance</font></li></ul> </span></span></span></span></span></div>
 
 
 					
 				</td>			</tr>
 		</tbody>
 	</table>
-</div></div></div></div>
+</div></div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); ">The salt spray test: In cooperation with the Technical University of Esslingen, a total of  9 products from 6 different manufacturers were subjected to quality  testing in December of 2002 in the form of a salt spray durability test  in accordance with DIN 50021 SS. The object of this testing was to  compare corrosion resistance of the various systems under consideration  of environmental influences such as salt water. During the test  simulation of over 480 hours, the samples were inspected at regular  intervals, whereby the corrosion resistance of piston rods and threaded  struts were evaluated, as well as the adjustability of the aluminium  spring collars.<br /><span style=""></span><br /><span style=""></span> <strong style="">Participants/Products:</strong><br /> KW &bdquo;Inox-line&ldquo; Coilovers Variant 1, 2 and 3<br /> KW Coilover struts Variant 2<br /> 5 competitor products with new, galvanized threaded struts<br /><span style=""></span><br /><span style=""></span> <strong style="">Evaluation:</strong><br /> 2x very good KW &bdquo;inox-line&ldquo; Variant 1 and Variant 3<br /> 1x good KW &bdquo;inox-line&ldquo; Variant 2<br /> 2x moderately good competitor<br /> 1x moderate competitor<br /> 2x poor competitor<br /><span style=""></span><br /><span style=""></span> <strong style="">Test Result FH Esslingen:</strong><br /> KW inox-line coilovers with stainless steel technology are clearly  superior to galvanized models with regard to corrosion resistance, and  in addition, ensure smooth operation even after 480 hours.<br /><span style=""></span></span></span></span></span></span></div>
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:0;padding-bottom:0;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/2/4/0/22404352/3313231.png?914" alt="Picture" style="width:914;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div></div>
 
         </div><!-- end container -->
     </div><!-- end main-wrap -->

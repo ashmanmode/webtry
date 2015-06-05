@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>KW Suspension NZ - Home</title>
+		<title>KW Clubsport - KW Suspension NZ</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -45,7 +45,7 @@ body.wsite-background {background-attachment: fixed !important;}
 </style>
 <style type='text/css'>
 .wsite-header {
-	background-image: url(uploads/2/2/4/0/22404352/header_images/1407203072.jpg) !important;
+	background-image: url(uploads/2/2/4/0/22404352/header_images/1408976720.jpg) !important;
 	background-position: 0 0 !important;
 }
 </style>
@@ -65,9 +65,9 @@ var STYLE_PREFIX = 'wsite';
 		function initFlyouts(){
 			initPublishedFlyoutMenus(
 				[{"id":"331637976309119823","title":"Home","url":"index.html","target":""},{"id":"993457908176523703","title":"Product Finder","url":"product-finder.html","target":""},{"id":"457958754370798728","title":"Suspension Products","url":"suspension-products.html","target":""},{"id":"282883260372450690","title":"Technology","url":"technology.html","target":""},{"id":"362946631606340170","title":"Motorsports","url":"motorsports.html","target":""},{"id":"487961449695170829","title":"Company","url":"company.html","target":""},{"id":"462539750200872473","title":"Contact Us","url":"contact-us.html","target":""}],
-				"331637976309119823",
+				"668679394752277710",
 				"<li class=\"wsite-menu-item-wrap\"><a href=\"#\" data-membership-required=\"\" class=\"wsite-menu-item\">{{title}}<\/a><\/li>",
-				'active',
+				'{{id}}',
 				false,
 				{"site\/menu\/submenu-main":"<div class=\"wsite-menu-wrap\" style=\"display:none\">{{! Designer note: \"wsite-menu-wrap\" required on submenu wrapper }}\n\t<ul class=\"wsite-menu\">{{! Designer note: \"wsite-menu\" required on submenu element }}\n\t\t{{#children}}{{> site\/menu\/submenu-item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","site\/menu\/submenu-item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-subitem-wrap{{#current_page}} wsite-nav-current{{\/current_page}}\">{{! Designer note: id required & \"wsite-menu-subitem-wrap\" required on the item wrap }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-subitem\">{{! Designer note: \"wsite-menu-subitem\" required on the item link }}\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{itemtitle}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/main":"<ul class=\"wsite-menu-default\">{{> site\/menu\/main-without-wrap}}<\/ul>{{! Designer note: \"wsite-menu-default\" required on menu element }}\n","site\/menu\/main-without-wrap":"{{#links}}{{!\n}}{{#current_page}}{{> site\/menu\/item-current}}{{\/current_page}}{{!\n}}{{^current_page}}{{> site\/menu\/item}}{{\/current_page}}{{!\n}}{{\/links}}\n","site\/menu\/item-current":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\" data-membership-required=\"{{membership-required}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n"}
 			)
@@ -83,7 +83,7 @@ var STYLE_PREFIX = 'wsite';
 </script>
 		
 	</head>
-	<body class="tall-header-page wsite-background  wsite-theme-light  wsite-page-index wsite-custom-background"><div id="header-wrap">
+	<body class="short-header-page wsite-background  wsite-theme-light  wsite-page-kw-clubsport wsite-custom-background"><div id="header-wrap">
         <div class="container">
             <table id="header">
                 <tr>
@@ -110,8 +110,8 @@ var STYLE_PREFIX = 'wsite';
 </span>
 </td>
 							</tr>
-                        </table>						
-                    </td>					
+                        </table>
+                    </td>
                 </tr>
             </table>
         </div><!-- end container -->
@@ -119,8 +119,8 @@ var STYLE_PREFIX = 'wsite';
 
     <div id="nav-wrap">
         <div class="container">
-        	<ul class="wsite-menu-default"><li id="active" class="wsite-menu-item-wrap">
-	<a href="index.html" class="wsite-menu-item">
+        	<ul class="wsite-menu-default"><li id="pg331637976309119823" class="wsite-menu-item-wrap">
+	<a href="index.html" data-membership-required="0" class="wsite-menu-item">
 		Home
 	</a>
 	
@@ -71772,7 +71772,7 @@ var STYLE_PREFIX = 'wsite';
 </div>
 
 </li>
-<li id="wsite-nav-668679394752277710" class="wsite-menu-subitem-wrap">
+<li id="wsite-nav-668679394752277710" class="wsite-menu-subitem-wrap wsite-nav-current">
 	<a href="kw-clubsport.html" class="wsite-menu-subitem">
 		<span class="wsite-menu-title">
 			KW Clubsport
@@ -71926,45 +71926,180 @@ var STYLE_PREFIX = 'wsite';
     <div id="main-wrap">
         <div class="container">
    			<div id='wsite-content' class='wsite-elements wsite-not-footer'>
-<div class="paragraph" style="text-align:left;"><strong><font size="6">KW Automotive New Zealand<span></span></font></strong><br /><span></span>Welcome to the official New Zealand site for KW Automotive products.  Here you will find the latest news and information regarding everything  KW including the full line up of KW suspensions such as V1 / V2 /  V3 Coilovers, Clubsport, Street Comfort, Competition etc.. If you have  any queries, please don&rsquo;t hesitate to contact us on&nbsp;0800 722358 or +649 820 8509. <br /><span style=""></span></div>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50.210526315789%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/2/4/0/22404352/5142739.jpg?370" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:49.789473684211%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;"><font size="6"><strong>KW Clubsport </strong></font><br /><span></span> <font size="3"><strong><font size="4">Performance for racetrack &amp; road </font></strong></font><br /><span style=""></span><br /><span style=""></span>  KW Clubsport was developed for customers, who demand a better  handling car when participating in track day events, but also require an  offi cial road approval to use their car every day. The setup was  specifi cally designed for the Nordschleife using track day tyres. By  using the optional available adjustable top mounts, the suspension  geometry can be adjusted to the requirements of tires and the intended  use. The mentioned adjustment options combined with the independently  adjustable rebound and compression damping technology allow individual  setup adjustments according to the vehicle load, tyre characteristics  and different track conditions. KW Clubsport meets every demand  regarding a coilover for the usage on the road and the race track.<br /><span style=""></span><br /><span style=""></span> KW Clubsport suspension kits are independently adjustable in  compression and rebound forces and include high performance racing  springs. Racing top mounts are optionally available for further  performance. KW Clubsport guarantees excellent handling, best  performance, highest agility and fantastic lap times.<br /><span style=""></span><br /><span style=""></span> <ul style=""><li style="">Height adjustable coilovers</li><li style="">Performance setup for the racetrack</li><li style="">Dampers in compression &amp; rebound forces independently adjustable</li><li style="">Use of high performance linear race springs</li><li style="">In stainless steel technology inox-line</li><li style="">Additional available with racing top mounts</li><li style="">T&Uuml;V approval possible depending on the specification<br /> (see references)</li></ul> </div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -5px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:66.421052631579%; padding:0 5px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;"><font size="6"><strong>Compression &amp; Rebound Adjustment</strong></font><br /><span></span>&nbsp;<font size="3"><strong><font size="4"><span></span> </font></strong></font><br /><span style=""></span>As far it is vehicle-specifically possible, the rebound damping is  adjusted by a spindle at the end of the piston rod. Mainly, the traction  phase (rebound) controls car body vibrations and also influences  handling and comfort in the low-speed damping range. By using the  traction phase adjustment, the vehicle can be adapted to the  requirements of the driver. Moreover the driving behavior can be  regulated from comfortably rolling to sporty and tense with improved  road holding characteristics.<br /><span style=""></span><br /><span style=""></span> The compression phase adjustment is carried out at the lower end of  the shock absorber via our patented multi-purpose valve. The large  number of pre-set parameters of this valve allows for a wide range of  adjustment for individual use. The unique low-speed compression  adjustment significantly distinguishes this technology from any other.  In this compression range, the driving behavior of the vehicle is  drastically influenced. An increase of the damping power supports the  vehicle already during compression and therefore avoids rolling and  pitching. The directional stability is significantly improved.<br /><span style=""></span></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:33.578947368421%; padding:0 5px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:5px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/2/4/0/22404352/9859805.jpg?287" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div style="text-align:center;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="kw-valve-technology.html" >
+<span class="wsite-button-inner">More about KW Valve Technology</span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
 
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
 	<table class="wsite-multicol-table">
 		<tbody class="wsite-multicol-tbody">
 			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				<td class="wsite-multicol-col" style="width:65.368421052632%; padding:0 15px;">
 					
 						
 
+<div class="paragraph" style="text-align:left;"><font size="6"><strong>Aluminium unibal top mount</strong></font><br /><span></span>&nbsp;<font size="3"><strong><font size="4"><span></span> </font></strong></font><br /><span style=""></span>Adjustable top mounts are made from high grade aluminium and are  included in the application when a technical advantage can be achieved. A  special gasket system prevents the intrusion of dirt and moisture into  the free-from-play pre-stressed uniball-bearings and therefore prevents  corrosion and wear.<br /><span style=""></span><br /><span style=""></span> <ul style=""><li style="">Scaled camber adjustment (optionally also caster)</li><li style="">Sealed, pre-stressed uniball-bearing in stress direction</li><li style="">Made of tool steel (100Cr6); 58 to 64 HRC &ndash; hard chrome plated,</li><li style="">PTFE lubricant, stainless steel outer ring (X200Cr13)</li><li style="">Axial bearing as balance on McPherson struts</li></ul><span style=""></span></div>
+
 <div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/2/2/4/0/22404352/6515261.png?212" alt="Picture" style="width:212;max-width:100%" />
+<img src="uploads/2/2/4/0/22404352/6891462_orig.gif" alt="Picture" style="width:100%;max-width:466px" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				</td>				<td class="wsite-multicol-col" style="width:34.631578947368%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:10px;margin-right:0;text-align:center">
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
 <a>
-<img src="uploads/2/2/4/0/22404352/4383812.png?214" alt="Picture" style="width:auto;max-width:100%" />
+<img src="uploads/2/2/4/0/22404352/3301195_orig.jpg" alt="Picture" style="width:100%;max-width:329px" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="kw-valve-technology.html" >
+<span class="wsite-button-inner">More on Coilover kits &amp; top mounts</span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:65.052631578947%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;"><font size="6"><strong>High-performance racing springs</strong></font><br /><span></span>&nbsp;<font size="3"><strong><font size="4"><span></span> </font></strong></font><br /><span style=""></span> The new KW high-performance springs are produced from specially  alloyed and tempered spring steel, and the increased resilience of the  material enables new spring designs with reduced spring thickness. This  makes the springs up to 30% more efficient than conventional racing  springs. With the same overall length this means:<br /><span style=""></span> <ul style=""><li style="">more suspension travel</li><li style="">higher block loading</li><li style="">lower weight</li></ul> Further weight reduction can be achieved by shortening the overall  length of the springs and adjusting the necessary block loading.<br /><span style=""></span> <ul style=""><li style="">shorter overall spring length</li><li style="">improved freedom of wheel movement</li><li style="">further weight reduction</li></ul> <span style=""></span></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:34.947368421053%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/2/4/0/22404352/8001333.jpg?294" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:65.052631578947%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<div class="paragraph" style="text-align:left;"><font size="6"><strong>KW anti-sway bars</strong></font><br /><span></span>&nbsp;<font size="3"><strong><font size="4"><span></span> </font></strong></font><br /><span style=""></span>  Give your KW clubsport coilover the finishing touch with KW anti-sway bars. Manufactured in Germany.<br /><span style=""></span><br /><span style=""></span> The KW anti-sway bar enables fine tuning of the handling  characteristics of your vehicle. It reduces the body roll of the vehicle  and provides increased stability. The result: improved handling and  increased grip during any driving manoeuvres. KW anti-sway bars are  manufactured from drop-forged heavy-duty aircraft steel for  high-precision performance and covered with a durable powdercoat finish.  	Kits include mounting hardware and an easly to comprehend instruction  manual.<br /><span style=""></span><br /><span style=""></span> <ul style=""><li style="">Reduction of body roll during cornering and aggressive manoeuvres</li><li style="">No reduction in damping comfort during compression on both sides</li><li style="">Reduction of load differences between the inner- and outer wheel when driving bends</li><li style="">Positive impact on the under- or over-steering tendencies (roll steer effect)</li></ul> <span style=""></span></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:34.947368421053%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/2/2/4/0/22404352/9890056.png?213" alt="Picture" style="width:213;max-width:100%" />
+<img src="uploads/2/2/4/0/22404352/8072743.jpg?294" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
@@ -71982,11 +72117,11 @@ var STYLE_PREFIX = 'wsite';
     <div id="footer-wrap">
         <div class="container">
        		<div class='wsite-elements wsite-footer'>
-<div class="paragraph" style="text-align:center;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font color="#6555c2" size="5"><strong>FREECALL: 0800 722358 </strong></font><br /></span></span></span></span></span></div>
-
 <div style="text-align:center;"><div style="height:0px;overflow:hidden"></div>
 <span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='https://www.facebook.com/AutoquipNewZealand' target='_blank'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-mail' href='mailto:chris@autoquip.co.nz' target='_blank'><span class='wsite-social-item-inner'></span></a></span>
-<div style="height:0px;overflow:hidden"></div></div></div>
+<div style="height:0px;overflow:hidden"></div></div>
+
+<div class="paragraph" style="text-align:center;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font color="#6555c2" size="5"><strong>FREECALL: 0800 722358 </strong></font><br /></span></span></span></span></span></div></div>
         </div><!-- end container -->
     </div><!-- end footer-wrap -->
 

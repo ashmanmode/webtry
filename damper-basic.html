@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>KW Suspension NZ - Home</title>
+		<title>Damper Basic - KW Suspension NZ</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -45,7 +45,7 @@ body.wsite-background {background-attachment: fixed !important;}
 </style>
 <style type='text/css'>
 .wsite-header {
-	background-image: url(uploads/2/2/4/0/22404352/header_images/1407203072.jpg) !important;
+	background-image: url(uploads/2/2/4/0/22404352/header_images/1418716149.jpg) !important;
 	background-position: 0 0 !important;
 }
 </style>
@@ -65,9 +65,9 @@ var STYLE_PREFIX = 'wsite';
 		function initFlyouts(){
 			initPublishedFlyoutMenus(
 				[{"id":"331637976309119823","title":"Home","url":"index.html","target":""},{"id":"993457908176523703","title":"Product Finder","url":"product-finder.html","target":""},{"id":"457958754370798728","title":"Suspension Products","url":"suspension-products.html","target":""},{"id":"282883260372450690","title":"Technology","url":"technology.html","target":""},{"id":"362946631606340170","title":"Motorsports","url":"motorsports.html","target":""},{"id":"487961449695170829","title":"Company","url":"company.html","target":""},{"id":"462539750200872473","title":"Contact Us","url":"contact-us.html","target":""}],
-				"331637976309119823",
+				"164074193737451890",
 				"<li class=\"wsite-menu-item-wrap\"><a href=\"#\" data-membership-required=\"\" class=\"wsite-menu-item\">{{title}}<\/a><\/li>",
-				'active',
+				'{{id}}',
 				false,
 				{"site\/menu\/submenu-main":"<div class=\"wsite-menu-wrap\" style=\"display:none\">{{! Designer note: \"wsite-menu-wrap\" required on submenu wrapper }}\n\t<ul class=\"wsite-menu\">{{! Designer note: \"wsite-menu\" required on submenu element }}\n\t\t{{#children}}{{> site\/menu\/submenu-item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","site\/menu\/submenu-item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-subitem-wrap{{#current_page}} wsite-nav-current{{\/current_page}}\">{{! Designer note: id required & \"wsite-menu-subitem-wrap\" required on the item wrap }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-subitem\">{{! Designer note: \"wsite-menu-subitem\" required on the item link }}\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{itemtitle}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/main":"<ul class=\"wsite-menu-default\">{{> site\/menu\/main-without-wrap}}<\/ul>{{! Designer note: \"wsite-menu-default\" required on menu element }}\n","site\/menu\/main-without-wrap":"{{#links}}{{!\n}}{{#current_page}}{{> site\/menu\/item-current}}{{\/current_page}}{{!\n}}{{^current_page}}{{> site\/menu\/item}}{{\/current_page}}{{!\n}}{{\/links}}\n","site\/menu\/item-current":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\" data-membership-required=\"{{membership-required}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n"}
 			)
@@ -83,7 +83,7 @@ var STYLE_PREFIX = 'wsite';
 </script>
 		
 	</head>
-	<body class="tall-header-page wsite-background  wsite-theme-light  wsite-page-index wsite-custom-background"><div id="header-wrap">
+	<body class="short-header-page wsite-background  wsite-theme-light  wsite-page-damper-basic wsite-custom-background"><div id="header-wrap">
         <div class="container">
             <table id="header">
                 <tr>
@@ -110,8 +110,8 @@ var STYLE_PREFIX = 'wsite';
 </span>
 </td>
 							</tr>
-                        </table>						
-                    </td>					
+                        </table>
+                    </td>
                 </tr>
             </table>
         </div><!-- end container -->
@@ -119,8 +119,8 @@ var STYLE_PREFIX = 'wsite';
 
     <div id="nav-wrap">
         <div class="container">
-        	<ul class="wsite-menu-default"><li id="active" class="wsite-menu-item-wrap">
-	<a href="index.html" class="wsite-menu-item">
+        	<ul class="wsite-menu-default"><li id="pg331637976309119823" class="wsite-menu-item-wrap">
+	<a href="index.html" data-membership-required="0" class="wsite-menu-item">
 		Home
 	</a>
 	
@@ -71815,7 +71815,7 @@ var STYLE_PREFIX = 'wsite';
 	</a>
 	
 </li>
-<li id="wsite-nav-164074193737451890" class="wsite-menu-subitem-wrap">
+<li id="wsite-nav-164074193737451890" class="wsite-menu-subitem-wrap wsite-nav-current">
 	<a href="damper-basic.html" class="wsite-menu-subitem">
 		<span class="wsite-menu-title">
 			Damper Basic
@@ -71926,48 +71926,100 @@ var STYLE_PREFIX = 'wsite';
     <div id="main-wrap">
         <div class="container">
    			<div id='wsite-content' class='wsite-elements wsite-not-footer'>
-<div class="paragraph" style="text-align:left;"><strong><font size="6">KW Automotive New Zealand<span></span></font></strong><br /><span></span>Welcome to the official New Zealand site for KW Automotive products.  Here you will find the latest news and information regarding everything  KW including the full line up of KW suspensions such as V1 / V2 /  V3 Coilovers, Clubsport, Street Comfort, Competition etc.. If you have  any queries, please don&rsquo;t hesitate to contact us on&nbsp;0800 722358 or +649 820 8509. <br /><span style=""></span></div>
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font size="6"><strong>Damper Basics<br /></strong></font></span></span></span></div>
 
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
 	<table class="wsite-multicol-table">
 		<tbody class="wsite-multicol-tbody">
 			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '> <font size="3"><strong>What shock absorbers are for </strong></font><br />Shock absorbers slow down the vibrations generated by wheels, axles  and the chassis. Therefore, the technically correct name is vibration  damper.<br /> When driving over an uneven surface, the shock absorbers take up the  impact of the shock. The damper then tries to transfer the incoming  energy. In a short timespand, these continuing shocks lead to a  vibration. These movements are then transferred to the shock absorber by  the piston rod. Thereby, the kinetic energy is transformed into heat by  hydraulic resistance in the shock absorber valves. Therefore the  vibrations are reduced to a minimum and can hardly be sensed.<br /><span style=""></span><br /><span style=""></span> An intact shock absorber offers driving comfort and safety and prevents:<br /><span style=""></span><br /><span style=""></span> <ul style=""><li style="">Rocking when driving over continuously uneven surfaces</li><li style="">Pitching or strong dipping during acceleration and braking</li><li style="">Spinning wheels</li><li style="">Swerving out of control while breaking</li><li style="">Sliding when cornering with minimal traction</li></ul> </span></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div class="wsite-youtube" style="margin-bottom:10px;margin-top:10px;"><div class="wsite-youtube-wrapper wsite-youtube-size-auto wsite-youtube-align-center">
+<div class="wsite-youtube-container">
+
+<iframe src="http://www.youtube.com/embed/Cv1BismUYrM?wmode=opaque" frameborder="0" allowfullscreen></iframe>
+</div>
+</div></div>
+
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '>In automobiles, vibration dampers are  usually used as twin tube or mono tube shock absorbers. In both cases,  the piston moves in a cylinder filled with oil. The piston forces the  oil though orifices of different sizes, slowing the movement of the rod,  and controlling the spring. </span></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:0;margin-left:0;margin-right:0;text-align:left">
 <a>
-<img src="uploads/2/2/4/0/22404352/6515261.png?212" alt="Picture" style="width:212;max-width:100%" />
+<img src="uploads/2/2/4/0/22404352/4424674.jpg?439" alt="Picture" style="width:439;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:10px;margin-right:0;text-align:center">
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '> <font size="3"><strong>Functional principle of twin tube shock absorbers: </strong></font><br />With a Twin-Tube shock absorber, the piston works inside of an inner  Tube. The space between the inner tube and the casing is used as an  equalization chamber. Changes in volume due position of the piston rod  change the oil level in the equalization chamber between the outer  casing and inner Tube.<br /><span style=""></span><br /><span style=""></span> <font size="3"><strong>Compression phase: </strong></font><br />When the car swings downwards in the direction to the road, the  piston rod is moved downwards. The oil displaced by the piston rod is  pressed into the equalization chamber between the Tubes via specially  designed orifices in the compression valve at the lower end of the inner  Tube. The resistance that is created through this valve creates the  actual compression forces. Oil underneath the piston also flows upwards  through the piston check valve with low resistance which also influences  the damper characteristics.<br /><span style=""></span><br /><span style=""></span> <font size="3"><strong>Rebound phase: </strong></font><br />When the car swings upwards, away from the road, the shock absorber  is extended. The piston rod is extending outward from the housing. The  rebound phase valve at the lower Tube resists the oil that flows  downwards through the holes in the space above the Tube. Therefore the  upward motion is slowed down. When the piston rod is pulled out of the  case, its volume is balanced out by the oil that flows from the  equalization chamber back into the inner tube through the compression  check valve.<br /><span style=""></span><br /><span style=""></span></span></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
 <a>
-<img src="uploads/2/2/4/0/22404352/4383812.png?214" alt="Picture" style="width:auto;max-width:100%" />
+<img src="uploads/2/2/4/0/22404352/9277015.jpg?439" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-<a>
-<img src="uploads/2/2/4/0/22404352/9890056.png?213" alt="Picture" style="width:213;max-width:100%" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '> <font size="3"><strong>Functional principle of mono tube shock absorbers: </strong></font><br />With a one-piston shock absorber, the piston works directly in the  damping case. Both, traction and also compression phase valve are  integrated into the piston at the end of the piston rod. Depending on  the velocity with which the shock absorber is compressed or extended,  the forces rise. A characteristic is the separating piston that  separates the oil from the gas space which is under strong pressure. The  gas space balances the oil expansion with temperature differences and  volume changes while the piston rod retracts. The separating piston  thereby moves upwards and downwards. The gas pressure of 25-30 bar in  the separating space is necessary in order to support the damping forces  in direction of the pressure direction.<br /><span style=""></span><br /><span style=""></span> <font size="3"><strong>Compression phase: </strong></font><br />When the car swings downwards in the direction to the road, the  piston rod is moved downwards. The compression phase valve on the top of  the valve resists the oil that streams upwards through holes.  Therefore, the downward movement is slowed down. The separating piston  is thereby lowered by the same degree as the piston retreats downwards.  The gas pressure underneath the separating piston thereby prevents the  oils from foaming above the piston.<br /><span style=""></span><br /><span style=""></span> <font size="3"><strong>Rebound phase:</strong></font> <br />When the car swings upwards, away from the road, the shock absorber  is extended. Thereby, the piston rod is moving out of the damping case.  The rebound phase valve at the lower piston resists the oil that flows  downwards through the holes in the space above the piston. Therefore the  upward motion is slowed down.<br /> The separating piston is thereby lifted upwards by the same degree as the piston extends<br /><span style=""></span><br /><span style=""></span></span></div>
 
 
 					
@@ -71982,11 +72034,11 @@ var STYLE_PREFIX = 'wsite';
     <div id="footer-wrap">
         <div class="container">
        		<div class='wsite-elements wsite-footer'>
-<div class="paragraph" style="text-align:center;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font color="#6555c2" size="5"><strong>FREECALL: 0800 722358 </strong></font><br /></span></span></span></span></span></div>
-
 <div style="text-align:center;"><div style="height:0px;overflow:hidden"></div>
 <span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='https://www.facebook.com/AutoquipNewZealand' target='_blank'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-mail' href='mailto:chris@autoquip.co.nz' target='_blank'><span class='wsite-social-item-inner'></span></a></span>
-<div style="height:0px;overflow:hidden"></div></div></div>
+<div style="height:0px;overflow:hidden"></div></div>
+
+<div class="paragraph" style="text-align:center;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font color="#6555c2" size="5"><strong>FREECALL: 0800 722358 </strong></font><br /></span></span></span></span></span></div></div>
         </div><!-- end container -->
     </div><!-- end footer-wrap -->
 

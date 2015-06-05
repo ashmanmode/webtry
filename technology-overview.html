@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>KW Suspension NZ - Home</title>
+		<title>Technology Overview - KW Suspension NZ</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -45,7 +45,7 @@ body.wsite-background {background-attachment: fixed !important;}
 </style>
 <style type='text/css'>
 .wsite-header {
-	background-image: url(uploads/2/2/4/0/22404352/header_images/1407203072.jpg) !important;
+	background-image: url(uploads/2/2/4/0/22404352/header_images/1418712067.jpg) !important;
 	background-position: 0 0 !important;
 }
 </style>
@@ -65,9 +65,9 @@ var STYLE_PREFIX = 'wsite';
 		function initFlyouts(){
 			initPublishedFlyoutMenus(
 				[{"id":"331637976309119823","title":"Home","url":"index.html","target":""},{"id":"993457908176523703","title":"Product Finder","url":"product-finder.html","target":""},{"id":"457958754370798728","title":"Suspension Products","url":"suspension-products.html","target":""},{"id":"282883260372450690","title":"Technology","url":"technology.html","target":""},{"id":"362946631606340170","title":"Motorsports","url":"motorsports.html","target":""},{"id":"487961449695170829","title":"Company","url":"company.html","target":""},{"id":"462539750200872473","title":"Contact Us","url":"contact-us.html","target":""}],
-				"331637976309119823",
+				"423910366722432698",
 				"<li class=\"wsite-menu-item-wrap\"><a href=\"#\" data-membership-required=\"\" class=\"wsite-menu-item\">{{title}}<\/a><\/li>",
-				'active',
+				'{{id}}',
 				false,
 				{"site\/menu\/submenu-main":"<div class=\"wsite-menu-wrap\" style=\"display:none\">{{! Designer note: \"wsite-menu-wrap\" required on submenu wrapper }}\n\t<ul class=\"wsite-menu\">{{! Designer note: \"wsite-menu\" required on submenu element }}\n\t\t{{#children}}{{> site\/menu\/submenu-item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","site\/menu\/submenu-item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-subitem-wrap{{#current_page}} wsite-nav-current{{\/current_page}}\">{{! Designer note: id required & \"wsite-menu-subitem-wrap\" required on the item wrap }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-subitem\">{{! Designer note: \"wsite-menu-subitem\" required on the item link }}\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{itemtitle}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/main":"<ul class=\"wsite-menu-default\">{{> site\/menu\/main-without-wrap}}<\/ul>{{! Designer note: \"wsite-menu-default\" required on menu element }}\n","site\/menu\/main-without-wrap":"{{#links}}{{!\n}}{{#current_page}}{{> site\/menu\/item-current}}{{\/current_page}}{{!\n}}{{^current_page}}{{> site\/menu\/item}}{{\/current_page}}{{!\n}}{{\/links}}\n","site\/menu\/item-current":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\" data-membership-required=\"{{membership-required}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n"}
 			)
@@ -83,7 +83,7 @@ var STYLE_PREFIX = 'wsite';
 </script>
 		
 	</head>
-	<body class="tall-header-page wsite-background  wsite-theme-light  wsite-page-index wsite-custom-background"><div id="header-wrap">
+	<body class="short-header-page wsite-background  wsite-theme-light  wsite-page-technology-overview wsite-custom-background"><div id="header-wrap">
         <div class="container">
             <table id="header">
                 <tr>
@@ -110,8 +110,8 @@ var STYLE_PREFIX = 'wsite';
 </span>
 </td>
 							</tr>
-                        </table>						
-                    </td>					
+                        </table>
+                    </td>
                 </tr>
             </table>
         </div><!-- end container -->
@@ -119,8 +119,8 @@ var STYLE_PREFIX = 'wsite';
 
     <div id="nav-wrap">
         <div class="container">
-        	<ul class="wsite-menu-default"><li id="active" class="wsite-menu-item-wrap">
-	<a href="index.html" class="wsite-menu-item">
+        	<ul class="wsite-menu-default"><li id="pg331637976309119823" class="wsite-menu-item-wrap">
+	<a href="index.html" data-membership-required="0" class="wsite-menu-item">
 		Home
 	</a>
 	
@@ -71807,7 +71807,7 @@ var STYLE_PREFIX = 'wsite';
 	</a>
 	<div class="wsite-menu-wrap" style="display:none">
 	<ul class="wsite-menu">
-		<li id="wsite-nav-423910366722432698" class="wsite-menu-subitem-wrap">
+		<li id="wsite-nav-423910366722432698" class="wsite-menu-subitem-wrap wsite-nav-current">
 	<a href="technology-overview.html" class="wsite-menu-subitem">
 		<span class="wsite-menu-title">
 			Technology Overview
@@ -71926,48 +71926,333 @@ var STYLE_PREFIX = 'wsite';
     <div id="main-wrap">
         <div class="container">
    			<div id='wsite-content' class='wsite-elements wsite-not-footer'>
-<div class="paragraph" style="text-align:left;"><strong><font size="6">KW Automotive New Zealand<span></span></font></strong><br /><span></span>Welcome to the official New Zealand site for KW Automotive products.  Here you will find the latest news and information regarding everything  KW including the full line up of KW suspensions such as V1 / V2 /  V3 Coilovers, Clubsport, Street Comfort, Competition etc.. If you have  any queries, please don&rsquo;t hesitate to contact us on&nbsp;0800 722358 or +649 820 8509. <br /><span style=""></span></div>
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1418712220636_2923739750133848">&#65279;</span><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1418712220740_30928313851597944">&#65279;</span><strong><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font size="6"><strong style="">KW </strong></font></span><font size="6"><span style=""></span><span style=""></span>Technology Overview</font><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style=""></span><font size="3">&nbsp;<br /><font size="2"><strong style=""><span style=""></span></strong></font></font></span></strong><strong style=""><span style=""></span></strong><span style=""><span style="">For us, performance means to develop custom-made solutions for our  customers offering a high degree of efficient individualisation  possibilities and setting standards in terms of technology,  functionality and quality.</span></span><strong style=""><span style=""><br /><br /></span></strong><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1418712220739_6731952980339414">&#65279;</span><span class="rangySelectionBoundary" style="line-height: 0; display: none;" id="selectionBoundary_1418712220635_8603489300442712">&#65279;</span></span></span></span></span></div>
+
+<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
 
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
 	<table class="wsite-multicol-table">
 		<tbody class="wsite-multicol-tbody">
 			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				<td class="wsite-multicol-col" style="width:58.315789473684%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:0;padding-bottom:0;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/2/2/4/0/22404352/6515261.png?212" alt="Picture" style="width:212;max-width:100%" />
+<img src="uploads/2/2/4/0/22404352/7506383.gif?517" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				</td>				<td class="wsite-multicol-col" style="width:41.684210526316%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:10px;margin-right:0;text-align:center">
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font size="5"><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><strong>Damper Basics<br /></strong></span></span></font></span></span></span></div>
+
+<div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="damper-basic.html" >
+<span class="wsite-button-inner"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(255, 255, 255); '><span style="text-decoration:none; font-style:normal; font-weight:700; color:rgb(255, 255, 255); ">READ MORE</span></span></span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:58.315789473684%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/2/2/4/0/22404352/4383812.png?214" alt="Picture" style="width:auto;max-width:100%" />
+<img src="uploads/2/2/4/0/22404352/7280778.jpg?517" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				</td>				<td class="wsite-multicol-col" style="width:41.684210526316%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font size="5"><strong>KW Spring Strut construction<br /></strong></font></span><span style=""></span>High-quality components and a unique technology are combined in one product.</span></div>
+
+<div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="kw-spring-strut-construction.html" >
+<span class="wsite-button-inner"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(255, 255, 255); '>READ MORE</span></span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:58.315789473684%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/2/2/4/0/22404352/9890056.png?213" alt="Picture" style="width:213;max-width:100%" />
+<img src="uploads/2/2/4/0/22404352/6163775.gif?517" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:41.684210526316%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font size="5"><strong>KW </strong></font></span></span></span><font size="5"><strong><span style=""><span style=""><span style=""></span></span></span>aluminium spring top mounts</strong></font><br /><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "></span><span style=""></span>High-quality components and a unique technology are combined in one product.</span></span></span></span></span></div>
+
+<div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="kw-spring-strut-construction.html" >
+<span class="wsite-button-inner"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(255, 255, 255); '>READ MORE</span></span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:58.315789473684%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/2/4/0/22404352/3374997.gif?518" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:41.684210526316%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font size="5"><strong>KW </strong></font></span></span></span><strong><font size="5"><strong><span style=""><span style=""><span style=""></span></span></span></strong></font></strong></span></span><strong><font size="5"><span style=""><span style=""></span></span><span style=""><span style=""></span></span>polyamide spring seat</font></strong><br /><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "></span><span style=""></span></span></span></span></span></span><span style=""><span style=""><span style=""><span style=""><span style=""></span></span></span></span></span>Corrosion-resistant and extremely light spring plate made of polyamide composite material.</span></div>
+
+<div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="kw-spring-strut-construction.html" >
+<span class="wsite-button-inner"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(255, 255, 255); '>READ MORE</span></span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:58.315789473684%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
+<a>
+<img src="uploads/2/2/4/0/22404352/6001060.gif?518" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:41.684210526316%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font size="5"><strong>KW </strong></font></span></span></span><font size="5"><strong><strong><span style=""><span style=""><span style=""></span></span></span></strong></strong></font></span></span><font size="5"><strong><span style=""><span style=""></span></span><span style=""><span style=""></span></span></strong></font></span></span></span><font size="5"><strong><span style=""><span style=""><span style=""></span></span></span><span style=""><span style=""><span style=""></span></span></span>INOX Stainless Steel</strong></font><br />By using stainless steel, KW sets highest standards and guarantees an 
+extremely high quality and long durability as well as a perfect look.</span></div>
+
+<div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="kw-spring-strut-construction.html" >
+<span class="wsite-button-inner"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(255, 255, 255); '>READ MORE</span></span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:58.315789473684%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/2/4/0/22404352/9231344.gif?518" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:41.684210526316%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><font size="5"><strong>Patented KW valve technology</strong></font><br />For each vehicle class and for every operational use, KW offers the  optimal adjusted suspension, from comfortable, to sporty or  performance-oriented. This demanding objective can only be achieved with  the innovative, patented KW technology</span></div>
+
+<div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="kw-spring-strut-construction.html" >
+<span class="wsite-button-inner"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(255, 255, 255); '>READ MORE</span></span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:58.315789473684%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
+<a>
+<img src="uploads/2/2/4/0/22404352/8387070.jpg?518" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:41.684210526316%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font size="5"></font></span></span></span><font size="5"><strong><strong><span style=""><span style=""><span style=""></span></span></span></strong></strong></font></span></span><font size="5"><strong><span style=""><span style=""></span></span><span style=""><span style=""></span></span></strong></font></span></span></span><font size="5"><strong><span style=""><span style=""><span style=""></span></span></span><span style=""><span style=""><span style=""></span></span></span></strong></font></span></span><span style=""><span style=""></span></span><span style=""><span style=""></span></span><font size="5"><strong>Piston rod steering<font size="4"> &amp; </font>sealing kit</strong></font><br /></span><span style=""></span>Allows customer-specific adjustments of valve technology or deviation ratio.</span></div>
+
+<div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="kw-spring-strut-construction.html" >
+<span class="wsite-button-inner"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(255, 255, 255); '>READ MORE</span></span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:58.315789473684%; padding:0 15px;">
+					
+						
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="uploads/2/2/4/0/22404352/1499207.jpg?518" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:41.684210526316%; padding:0 15px;">
+					
+						
+
+<div><div style="height: 0px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div class="paragraph" style="text-align:left;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font size="5"><strong>7-Post Dyno</strong></font></span></span></span></span></span></span></span></span><font size="5"></font><br /></span></span><span style=""><span style=""></span></span>With the 7-post drive dynamics test stand, KW offers test conditions in the laboratory ideally supporting subjective road tests.</span></div>
+
+<div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="kw-spring-strut-construction.html" >
+<span class="wsite-button-inner"><span style='text-decoration:none; font-style:normal; font-weight:700; color:rgb(255, 255, 255); '>READ MORE</span></span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
 
 
 					
@@ -71982,11 +72267,11 @@ var STYLE_PREFIX = 'wsite';
     <div id="footer-wrap">
         <div class="container">
        		<div class='wsite-elements wsite-footer'>
-<div class="paragraph" style="text-align:center;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font color="#6555c2" size="5"><strong>FREECALL: 0800 722358 </strong></font><br /></span></span></span></span></span></div>
-
 <div style="text-align:center;"><div style="height:0px;overflow:hidden"></div>
 <span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='https://www.facebook.com/AutoquipNewZealand' target='_blank'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-mail' href='mailto:chris@autoquip.co.nz' target='_blank'><span class='wsite-social-item-inner'></span></a></span>
-<div style="height:0px;overflow:hidden"></div></div></div>
+<div style="height:0px;overflow:hidden"></div></div>
+
+<div class="paragraph" style="text-align:center;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font color="#6555c2" size="5"><strong>FREECALL: 0800 722358 </strong></font><br /></span></span></span></span></span></div></div>
         </div><!-- end container -->
     </div><!-- end footer-wrap -->
 

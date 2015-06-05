@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>KW Suspension NZ - Home</title>
+		<title>KW Variant 3 - KW Suspension NZ</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -45,7 +45,7 @@ body.wsite-background {background-attachment: fixed !important;}
 </style>
 <style type='text/css'>
 .wsite-header {
-	background-image: url(uploads/2/2/4/0/22404352/header_images/1407203072.jpg) !important;
+	background-image: url(uploads/2/2/4/0/22404352/header_images/1407848547.jpg) !important;
 	background-position: 0 0 !important;
 }
 </style>
@@ -65,9 +65,9 @@ var STYLE_PREFIX = 'wsite';
 		function initFlyouts(){
 			initPublishedFlyoutMenus(
 				[{"id":"331637976309119823","title":"Home","url":"index.html","target":""},{"id":"993457908176523703","title":"Product Finder","url":"product-finder.html","target":""},{"id":"457958754370798728","title":"Suspension Products","url":"suspension-products.html","target":""},{"id":"282883260372450690","title":"Technology","url":"technology.html","target":""},{"id":"362946631606340170","title":"Motorsports","url":"motorsports.html","target":""},{"id":"487961449695170829","title":"Company","url":"company.html","target":""},{"id":"462539750200872473","title":"Contact Us","url":"contact-us.html","target":""}],
-				"331637976309119823",
+				"243151523646232234",
 				"<li class=\"wsite-menu-item-wrap\"><a href=\"#\" data-membership-required=\"\" class=\"wsite-menu-item\">{{title}}<\/a><\/li>",
-				'active',
+				'{{id}}',
 				false,
 				{"site\/menu\/submenu-main":"<div class=\"wsite-menu-wrap\" style=\"display:none\">{{! Designer note: \"wsite-menu-wrap\" required on submenu wrapper }}\n\t<ul class=\"wsite-menu\">{{! Designer note: \"wsite-menu\" required on submenu element }}\n\t\t{{#children}}{{> site\/menu\/submenu-item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","site\/menu\/submenu-item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-subitem-wrap{{#current_page}} wsite-nav-current{{\/current_page}}\">{{! Designer note: id required & \"wsite-menu-subitem-wrap\" required on the item wrap }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-subitem\">{{! Designer note: \"wsite-menu-subitem\" required on the item link }}\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{itemtitle}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/main":"<ul class=\"wsite-menu-default\">{{> site\/menu\/main-without-wrap}}<\/ul>{{! Designer note: \"wsite-menu-default\" required on menu element }}\n","site\/menu\/main-without-wrap":"{{#links}}{{!\n}}{{#current_page}}{{> site\/menu\/item-current}}{{\/current_page}}{{!\n}}{{^current_page}}{{> site\/menu\/item}}{{\/current_page}}{{!\n}}{{\/links}}\n","site\/menu\/item-current":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n","site\/menu\/item":"<li{{#id}} id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">{{! Designer note: id required & \"wsite-menu-item-wrap\" required on the item wrapper }}\n\t<a href=\"{{itemlink}}\" data-membership-required=\"{{membership-required}}\"{{#target}} target=\"{{target}}\"{{\/target}} class=\"wsite-menu-item\">{{! Designer note: \"wsite-menu-item\" required on the item link }}\n\t\t{{{itemtitle}}}\n\t<\/a>\n\t{{#has_children}}{{> site\/menu\/submenu-main}}{{\/has_children}}\n<\/li>\n"}
 			)
@@ -83,7 +83,7 @@ var STYLE_PREFIX = 'wsite';
 </script>
 		
 	</head>
-	<body class="tall-header-page wsite-background  wsite-theme-light  wsite-page-index wsite-custom-background"><div id="header-wrap">
+	<body class="short-header-page wsite-background  wsite-theme-light  wsite-page-kw-variant-3 wsite-custom-background"><div id="header-wrap">
         <div class="container">
             <table id="header">
                 <tr>
@@ -110,8 +110,8 @@ var STYLE_PREFIX = 'wsite';
 </span>
 </td>
 							</tr>
-                        </table>						
-                    </td>					
+                        </table>
+                    </td>
                 </tr>
             </table>
         </div><!-- end container -->
@@ -119,8 +119,8 @@ var STYLE_PREFIX = 'wsite';
 
     <div id="nav-wrap">
         <div class="container">
-        	<ul class="wsite-menu-default"><li id="active" class="wsite-menu-item-wrap">
-	<a href="index.html" class="wsite-menu-item">
+        	<ul class="wsite-menu-default"><li id="pg331637976309119823" class="wsite-menu-item-wrap">
+	<a href="index.html" data-membership-required="0" class="wsite-menu-item">
 		Home
 	</a>
 	
@@ -71727,7 +71727,7 @@ var STYLE_PREFIX = 'wsite';
 	</a>
 	
 </li>
-<li id="wsite-nav-243151523646232234" class="wsite-menu-subitem-wrap">
+<li id="wsite-nav-243151523646232234" class="wsite-menu-subitem-wrap wsite-nav-current">
 	<a href="kw-variant-3.html" class="wsite-menu-subitem">
 		<span class="wsite-menu-title">
 			KW Variant 3
@@ -71926,45 +71926,63 @@ var STYLE_PREFIX = 'wsite';
     <div id="main-wrap">
         <div class="container">
    			<div id='wsite-content' class='wsite-elements wsite-not-footer'>
-<div class="paragraph" style="text-align:left;"><strong><font size="6">KW Automotive New Zealand<span></span></font></strong><br /><span></span>Welcome to the official New Zealand site for KW Automotive products.  Here you will find the latest news and information regarding everything  KW including the full line up of KW suspensions such as V1 / V2 /  V3 Coilovers, Clubsport, Street Comfort, Competition etc.. If you have  any queries, please don&rsquo;t hesitate to contact us on&nbsp;0800 722358 or +649 820 8509. <br /><span style=""></span></div>
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:42.194092827004%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:5px;margin-left:0;margin-right:0;text-align:center">
+<a href='uploads/2/2/4/0/22404352/456966_orig.jpg?347' rel='lightbox' onclick='if (!lightboxLoaded) return false'>
+<img src="uploads/2/2/4/0/22404352/456966.jpg?347" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:57.805907172996%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;"><font size="6"><strong>KW Variant 3 inox-line </strong></font><br /><span></span> <font size="3"><strong><font size="4">Perfect Street Performance </font><br /><span></span></strong></font><font size="2">State-of-the-art technology from motor sports for more performance on  the road.</font><br /><span style=""></span><br /><span style=""></span> The separate and independently adjustable rebound- and  compression damping allows for an individual suspension setup for  different uses and preferences. The unique patented system with its  two-stage valves allows a rebound damping adjustment (comfort) and a  compression adjustment (driving dynamics) in the low-speed range while  the high-speed range which controls the driving safety, is fixed.<br /><span style=""></span><br /><span style=""></span> <ul style=""><li style="">Damping technology with individually adjustable rebound- and compression technology</li><li style="">inox-line* stainless steel technology</li><li style="">Individually height adjustable</li><li style="">Adjustment parameters approved by the German Technical Control Board (T&Uuml;V)</li><li style="">High-quality components for long durability</li><li style="">Infinitely variable rebound damping adjustment</li><li style="">14-way adjustable compression damping</li><li style="">Unique, individually working damping force adjustment</li><li style="">Comprehensive documentation for easy use</li></ul></div>
+
+<span class='imgPusher' style='float:left;height:0px'></span><span style='display: table;z-index:10;width:auto;position:relative;float:left;max-width:100%;;clear:left;margin-top:0px;*margin-top:0px'><a><img src="uploads/2/2/4/0/22404352/1180102.png?113" style="margin-top: 10px; margin-bottom: 0px; margin-left: 5px; margin-right: 5px; none; max-width:100%" alt="Picture" class="galleryImageBorder wsite-image" /></a><span style="display: table-caption; caption-side: bottom; font-size: 90%; margin-top: -0px; margin-bottom: 0px; text-align: center;" class="wsite-caption"></span></span>
+<div class="paragraph" style="text-align:left;display:block;"><em>*Not for suspensions with spring strut modification (exchanged struts), these are only available in zinc-plated steel.</em></div>
+<hr style="width:100%;clear:both;visibility:hidden;"></hr>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
 
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
 	<table class="wsite-multicol-table">
 		<tbody class="wsite-multicol-tbody">
 			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				<td class="wsite-multicol-col" style="width:58.438818565401%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-<a>
-<img src="uploads/2/2/4/0/22404352/6515261.png?212" alt="Picture" style="width:212;max-width:100%" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
+<div class="paragraph" style="text-align:left;"> <font size="5"><strong>Compression and Rebound Adjustment </strong></font><br /><span></span><br /><span></span> As far it is vehicle-specifically possible, the rebound damping is  adjusted by a spindle at the end of the piston rod. Mainly, the traction  phase (rebound) controls car body vibrations and also influences  handling and comfort in the low-speed damping range. By using the  traction phase adjustment, the vehicle can be adapted to the  requirements of the driver. Moreover the driving behavior can be  regulated from comfortably rolling to sporty and tense with improved  road holding characteristics.<br /><span style=""></span><br /><span style=""></span> The compression phase adjustment is carried out at the lower end of  the shock absorber via our patented multi-purpose valve. The large  number of pre-set parameters of this valve allows for a wide range of  adjustment for individual use. The unique low-speed compression  adjustment significantly distinguishes this technology from any other.  In this compression range, the driving behavior of the vehicle is  drastically influenced. An increase of the damping power supports the  vehicle already during compression and therefore avoids rolling and  pitching. The directional stability is significantly improved.<br /><span style=""></span><br /><span style=""></span></div>
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+				</td>				<td class="wsite-multicol-col" style="width:41.561181434599%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:10px;margin-right:0;text-align:center">
+<div><div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:0;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/2/2/4/0/22404352/4383812.png?214" alt="Picture" style="width:auto;max-width:100%" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
-					
-						
-
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-<a>
-<img src="uploads/2/2/4/0/22404352/9890056.png?213" alt="Picture" style="width:213;max-width:100%" />
+<img src="uploads/2/2/4/0/22404352/6992921.jpg?340" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
@@ -71982,11 +72000,11 @@ var STYLE_PREFIX = 'wsite';
     <div id="footer-wrap">
         <div class="container">
        		<div class='wsite-elements wsite-footer'>
-<div class="paragraph" style="text-align:center;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font color="#6555c2" size="5"><strong>FREECALL: 0800 722358 </strong></font><br /></span></span></span></span></span></div>
-
 <div style="text-align:center;"><div style="height:0px;overflow:hidden"></div>
 <span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='https://www.facebook.com/AutoquipNewZealand' target='_blank'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-mail' href='mailto:chris@autoquip.co.nz' target='_blank'><span class='wsite-social-item-inner'></span></a></span>
-<div style="height:0px;overflow:hidden"></div></div></div>
+<div style="height:0px;overflow:hidden"></div></div>
+
+<div class="paragraph" style="text-align:center;"><span style='text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); '><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><span style="text-decoration:none; font-style:normal; font-weight:400; color:rgb(0, 0, 0); "><font color="#6555c2" size="5"><strong>FREECALL: 0800 722358 </strong></font><br /></span></span></span></span></span></div></div>
         </div><!-- end container -->
     </div><!-- end footer-wrap -->
 
